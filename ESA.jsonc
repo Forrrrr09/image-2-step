@@ -1,0 +1,13 @@
+{
+  // 与 ESA 控制台项目名一致即可，也可写成 image-2-step
+  "name": "image-2-step",
+  // 纯静态：不安装依赖、不构建
+  "installCommand": "",
+  "buildCommand": "",
+  "assets": {
+    // 静态文件就在仓库根目录
+    "directory": ".",
+    // 单页：未知路径也回 index.html（可选）
+    "notFoundStrategy": "singlePageApplication"
+  }
+}
